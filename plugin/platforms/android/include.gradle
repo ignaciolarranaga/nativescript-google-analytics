@@ -20,7 +20,7 @@ buildscript {
 
 dependencies {
     // [START gms_compile]
-    def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : '+'
+    def googlePlayServicesVersion = project.hasProperty('googlePlayServicesVersion') ? project.googlePlayServicesVersion : '10.2.0'
 	compile "com.google.android.gms:play-services-analytics:$googlePlayServicesVersion"
     // [END gms_compile]
 }
